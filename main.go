@@ -1,7 +1,11 @@
 package main
 
-import "fmt" 
+import (
+ "fmt"
+ "github.com/xytan0056/depwithoutgen/api"
+)
 
-func some() {
-	fmt.Print("I'm depwithgen") 
+func main() {
+	api.API()
+	fmt.Println("I don't have gen")
 }
